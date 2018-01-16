@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM debian:wheezy
 
 RUN apt-get update && apt-get install -y \
         msmtp \
