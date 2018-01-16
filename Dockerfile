@@ -1,4 +1,4 @@
-FROM laqql/occu-x86
+FROM laqql/occu
 
 RUN apt-get update && apt-get install -y \
         msmtp \
